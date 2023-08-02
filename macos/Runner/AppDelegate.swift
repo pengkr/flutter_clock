@@ -36,9 +36,6 @@ class AppDelegate: FlutterAppDelegate {
         // Initialize the status bar controller with the popover
         statusBarController = StatusBarController.init(flutterUIPopover)
 
-        // Close the default Flutter window as the Flutter UI will be displayed in the popover
-        mainFlutterWindow.close()
-
         // Call the superclass's applicationDidFinishLaunching function to perform any additional setup
         super.applicationDidFinishLaunching(aNotification)
       }
